@@ -1,0 +1,11 @@
+name: 'Cyrillic to Latin'
+description: 'Converts strings from cyrillic to latin for Serbian language.'
+type: module
+# core: 8.x
+package: Multilingual
+
+# Information added by Drupal.org packaging script on 2017-09-22
+version: '8.x-1.03'
+core: '8.x'
+project: 'cyrillic_to_latin'
+datestamp: 1506108846
