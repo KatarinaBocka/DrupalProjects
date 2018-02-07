@@ -1,0 +1,234 @@
+
+<!-- ********** Navbar menu ********** -->
+{% if page.contact_email or page.top_menu %}
+  <div class="top-menu">
+    <div class="container">
+      <div class="row">
+
+        <!-- Start: Contact Phone & Email -->
+        <div class="col-sm-8">
+          {% if page.contact_email %}
+            {{ page.contact_email }}
+          {% endif %}
+        </div>
+        <!-- End: Contact Phone & Email -->
+
+        <!-- Start: Top menu -->
+        <div class="col-sm-4">
+          {% if page.top_menu %}
+            {{ page.top_menu }}
+          {% endif %}
+        </div>
+        <!-- End: Top menu -->
+
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+<!-- ********** Header ********** -->
+<header class="main-header">
+  <nav class="navbar topnav navbar-default" role="navigation">
+    <div class="container">
+      <div class="row">
+
+        <!-- Start: Header -->
+        <div class="navbar-header col-md-2">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          {% if page.header %}
+            {{ page.header }}
+          {% endif %}
+        </div>
+        <!-- End: Header -->
+
+        <!-- Start: Main menu -->
+        <div class="col-md-8">
+          {% if page.primary_menu %}
+            {{ page.primary_menu }}
+          {% endif %}
+        </div>
+        <!-- End: Main menu -->
+
+        <!-- Start: Search -->
+        <div class="col-md-2">
+            {% if page.search %}
+              {{ page.search }}
+            {% endif %}        
+        </div>
+        <!-- End: Search -->
+
+        </div>
+      </div>
+    </nav>
+</header>
+<!-- ********** End Header ********** -->
+<!-- ********** End Navbar menu ********** -->
+
+<!-- ********** Portfolio Grid ********** -->
+<!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Our Team</h2>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+              <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/01-thumbnail.jpg" alt="">
+              <div class="team-caption">
+                    <h4>Threads</h4>
+                    <p class="text-muted">Illustration</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+                <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/02-thumbnail.jpg" alt="">
+                <div class="team-caption">
+                    <h4>Explore</h4>
+                    <p class="text-muted">Graphic Design</p>
+                </div>
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+                <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/03-thumbnail.jpg" alt="">
+                <div class="team-caption">
+                    <h4>Finish</h4>
+                    <p class="text-muted">Identity</p>
+                </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+                <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/04-thumbnail.jpg" alt="">
+                <div class="team-caption">
+                    <h4>Lines</h4>
+                    <p class="text-muted">Branding</p>
+                </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+                <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/05-thumbnail.jpg" alt="">
+                <div class="team-caption">
+                    <h4>Southwest</h4>
+                    <p class="text-muted">Website Design</p>
+                </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+                <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/06-thumbnail.jpg" alt="">
+                <div class="team-caption">
+                    <h4>Window</h4>
+                    <p class="text-muted">Photography</p>
+                </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+                <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/04-thumbnail.jpg" alt="">
+                <div class="team-caption">
+                    <h4>Finish</h4>
+                    <p class="text-muted">Identity</p>
+                </div>
+            </a>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 team-item">
+            <a href="#" class="test">
+                <img class="img-fluid" src="themes/base_zymphonies_theme/images/team/01-thumbnail.jpg" alt="">
+                <div class="team-caption">
+                    <h4>Lines</h4>
+                    <p class="text-muted">Branding</p>
+                </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- ********** End Portfolio Grid ********** -->
+
+<!-- ********** Footer menu ********** -->
+<!-- Start: Footer Menu -->
+{% if page.footer_menu %}
+  <div class="footer-menu footer-menu-custom">
+    <div class="container">
+      <div class="row">
+
+        <!-- Start: Footer Menu -->
+        <div class="col-sm-6">
+          {{ page.footer_menu }}
+        </div>
+        <!-- End: Footer Menu -->
+
+        <!-- Start: Social media links -->
+        {% if show_social_icon %}
+          <div class="col-sm-6">
+            <div class="social-media">
+              {% if facebook_url %}
+                <a href="{{ facebook_url }}"  class="facebook" target="_blank" ><i class="fa fa-facebook"></i></a>
+              {% endif %}
+              {% if google_plus_url %}
+                <a href="{{ google_plus_url }}"  class="google-plus" target="_blank" ><i class="fa fa-google-plus"></i></a>
+              {% endif %}
+              {% if twitter_url %}
+                <a href="{{ twitter_url }}" class="twitter" target="_blank" ><i class="fa fa-twitter"></i></a>
+              {% endif %}
+              {% if linkedin_url %}
+                <a href="{{ linkedin_url }}" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
+              {% endif %}
+              {% if pinterest_url %}
+                <a href="{{ pinterest_url }}" class="pinterest" target="_blank" ><i class="fa fa-pinterest"></i></a>
+              {% endif %}
+              {% if rss_url %}
+                <a href="{{ rss_url }}" class="rss" target="_blank" ><i class="fa fa-rss"></i></a>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+        <!-- End: Social media links -->
+
+      </div>
+    </div>
+  </div>
+{% endif %}
+<!-- End: Footer Menu -->
+
+
+<div class="copyright">
+  <div class="container">
+    <div class="row">
+
+      <!-- Start: Copyright -->
+      <div class="col-sm-6">
+        <p>Copyright © {{ "now"|date("Y") }}. All rights reserved.</p>
+      </div>
+      <!-- End: Copyright -->
+
+      <!-- Start: Credit link -->
+      {% if show_credit_link %}
+        <div class="col-sm-6">
+          <p class="credit-link">Designed By <a href="http://www.zymphonies.com" target="_blank">Zymphonies</a></p>
+        </div>
+      {% endif %}
+      <!-- End: Credit link -->
+      
+    </div>
+  </div>
+</div>

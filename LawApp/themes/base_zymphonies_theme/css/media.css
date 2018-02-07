@@ -14,7 +14,7 @@
   .footerwidget img.left { float: left; margin: 10px 10px 0 0; }
   .region-primary-menu { display: inline-block !important; float: right; width: auto; margin: 0; }
   .region-primary-menu ul { border: 0; }
-  .region-primary-menu ul ul { background: #333333; }
+  .region-primary-menu ul ul { background: #333; }
   .region-primary-menu ul ul li a, .region-primary-menu ul ul li a:hover, .region-primary-menu ul ul li a:focus, .region-primary-menu ul ul li a:active, .region-primary-menu ul ul li a.highlighted { padding: 12px 15px; }
   .region-primary-menu li { border: 0; }
   .region-primary-menu li a { background: none; border: 0; color: #fff; }

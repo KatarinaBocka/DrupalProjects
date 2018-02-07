@@ -1,0 +1,6 @@
+<?php​
+function contact_popup_page_attachments(array &$attachments) {​
+
+​    $attachments['#attached']['library'][] = 'contact_popup/contact_popup_form';​
+
+}

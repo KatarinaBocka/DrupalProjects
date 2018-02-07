@@ -1,0 +1,7 @@
+poyy.pozz:
+  path: '/poyy'
+  defaults:
+    _controller: Drupal\poyy\Controller\PoyyController::pozz
+    _title: 'Poyy :D'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,6 @@
+name: 'Poyy'
+description: 'Poyy module'
+type: module
+package: 'BoldizArt'
+version: '8.x-1.0'
+core: '8.x'

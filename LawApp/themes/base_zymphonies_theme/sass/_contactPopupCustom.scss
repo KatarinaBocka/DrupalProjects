@@ -1,0 +1,25 @@
+
+/* ---------- Custom style for Contact popup form ---------- */
+
+#open-modal-custom {
+    color: #27ae60;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.custom-modal-dialog {
+    width: 400px;
+    margin: 55px auto;
+    color: #ccc;
+}
+.form-control:focus {
+    border-color: #27ae60 !important;
+  }
+.custom-button {
+    border-radius: 4px;
+}
+.custom-button-grey {
+    background: #ccc;
+    &:hover {
+        background-color:#444;
+    }
+}

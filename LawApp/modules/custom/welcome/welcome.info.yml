@@ -1,0 +1,6 @@
+name: 'Welcome'
+description: 'Welcome module'
+type: module
+package: 'BoldizArt'
+version: '8.x-1.0'
+core: '8.x'

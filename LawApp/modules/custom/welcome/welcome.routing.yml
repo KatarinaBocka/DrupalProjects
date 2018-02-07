@@ -1,0 +1,7 @@
+welcome.hello:
+  path: '/welcome'
+  defaults:
+    _controller: Drupal\welcome\Controller\WelcomeController::hello
+    _title: 'Poyy :D'
+  requirements:
+    _permission: 'access content'

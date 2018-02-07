@@ -1,0 +1,23 @@
+contactformcustom.cfc:
+  path: '/cfc'
+  defaults:
+    _controller: Drupal\contactformcustom\Controller\ContactFormCustomController::cool
+    _title: 'Cao bre! :D'
+  requirements:
+    _permission: 'access content'
+
+contactformcustom.cfc2:
+  path: '/cfc2'
+  defaults:
+    _controller: Drupal\contactformcustom\Controller\ContactFormCustomController::cool
+    _title: 'Cao bre 2! :D'
+  requirements:
+    _permission: 'access content'
+
+contactformcustom.cfcid:
+  path: '/cfc/{id}'
+  defaults:
+    _controller: Drupal\contactformcustom\Controller\ContactFormCustomController::coolid
+    _title: 'Cao bre! :D'
+  requirements:
+    _permission: 'access content'

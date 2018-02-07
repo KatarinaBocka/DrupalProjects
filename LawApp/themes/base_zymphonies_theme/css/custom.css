@@ -1,0 +1,30 @@
+/* ---------- Custom style for Contact popup form ---------- */
+#open-modal-custom { color: #27ae60; cursor: pointer; margin-top: 10px; }
+
+.custom-modal-dialog { width: 400px; margin: 55px auto; color: #ccc; }
+
+.form-control:focus { border-color: #27ae60 !important; }
+
+.custom-button { border-radius: 4px; }
+
+.custom-button-grey { background: #ccc; }
+.custom-button-grey:hover { background-color: #444; }
+
+.custom-item { padding: 5px 20px !important; }
+
+.navbar-header { width: 25%; }
+
+.section-heading { margin-bottom: 30px; margin-top: 30px; }
+
+.team-item { padding: 0; height: 219px; width: 292px; }
+
+.img-fluid { height: 219px; width: 292px; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); filter: grayscale(100%); transition: all 0.5s ease; }
+
+.team-caption { text-align: center; position: relative; bottom: 70px; }
+.team-caption h4 { font-weight: 600; color: white; text-shadow: 2px 2px 6px #000; text-transform: uppercase; margin-bottom: 0px; }
+.team-caption p { font-weight: 400; color: white; text-shadow: 2px 2px 6px #000; }
+
+.test:hover .team-caption { opacity: 0; transition: opacity .5s linear; }
+.test:hover .img-fluid { -webkit-filter: grayscale(0%); -moz-filter: grayscale(0%); filter: grayscale(0%); transition: all 0.5s ease; }
+
+.footer-menu-custom { margin-top: 50px; }

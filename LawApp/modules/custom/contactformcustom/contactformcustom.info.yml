@@ -1,0 +1,6 @@
+name: 'Contact form custom'
+description: 'Popup Contact Form'
+type: module
+package: 'Katarina'
+version: '8.x-1.0'
+core: '8.x'

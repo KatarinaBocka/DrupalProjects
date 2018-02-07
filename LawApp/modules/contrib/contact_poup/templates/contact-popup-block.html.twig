@@ -10,4 +10,5 @@
 #}
 {% if link -%}
     <div> {{ link }} </div>
+    <pre>{{ dump(link|keys) }}</pre>
 {%- endif %}

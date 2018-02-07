@@ -1,0 +1,5 @@
+contact_popup_form:
+  js:
+    js/contact.js: {}
+  dependencies:
+    - core/jquery

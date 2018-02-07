@@ -18,6 +18,7 @@ global-components:
     theme:
       css/global.css: {}
       css/media.css: {}
+      css/custom.css: {}
   js:  
     js/jquery.smartmenus.min.js: {}
     js/custom.js: {}
